@@ -1,0 +1,21 @@
+best raider
+
+
+import java.util.*;
+public class Main{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        TreeSet<String> ts= new TreeSet<String>();
+        
+        sc.nextLine();
+        for(int i=0;i<n;i++){
+            String player=sc.nextLine();
+            ts.add(player);
+        }
+        for(String x: ts){
+            System.out.println(x);
+        }
+    }
+}
